@@ -1,0 +1,47 @@
+@import "../../../app/dist/scss/variables.scss";
+
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: $div-background-color;
+  border: 1px solid;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: $tertiary-color;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: $primary-color-hover;
+}
